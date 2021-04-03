@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/food_card"
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="@dimen/_80sdp"
+        android:layout_marginTop="32dp"
+        android:minWidth="200dp"
+        android:minHeight="80dp"
+        app:cardCornerRadius="3dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dateTv">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@drawable/food"
+            android:gravity="center"
+            android:id="@+id/foodLin"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/familiarpro_bold"
+                android:gravity="center"
+                android:maxLength="40"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_20sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="Food\n&amp;\nDrink" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/pharmacy_card"
+        android:layout_width="@dimen/_120sdp"
+        android:layout_height="@dimen/_80sdp"
+        android:layout_marginTop="8dp"
+        android:minWidth="200dp"
+        android:minHeight="80dp"
+        app:cardCornerRadius="3dp"
+        app:layout_constraintStart_toStartOf="@+id/food_card"
+        app:layout_constraintTop_toBottomOf="@+id/food_card">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@drawable/pharmacy"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/familiarpro_bold"
+                android:gravity="center"
+                android:maxLength="40"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_20sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="Pharmacy" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/market_card"
+        android:layout_width="@dimen/_120sdp"
+        android:layout_height="@dimen/_80sdp"
+        android:layout_marginTop="8dp"
+        android:minWidth="200dp"
+        android:minHeight="80dp"
+        app:cardCornerRadius="3dp"
+        app:layout_constraintEnd_toEndOf="@+id/food_card"
+        app:layout_constraintTop_toBottomOf="@+id/food_card">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@drawable/market"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/familiarpro_bold"
+                android:gravity="center"
+                android:maxLength="40"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_20sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="Market" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/gym_card"
+        android:layout_width="@dimen/_120sdp"
+        android:layout_height="@dimen/_80sdp"
+        android:layout_marginTop="8dp"
+        android:minWidth="200dp"
+        android:minHeight="80dp"
+        app:cardCornerRadius="3dp"
+        app:layout_constraintStart_toStartOf="@+id/pharmacy_card"
+        app:layout_constraintTop_toBottomOf="@+id/pharmacy_card">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@drawable/gym"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/familiarpro_bold"
+                android:gravity="center"
+                android:maxLength="40"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_20sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="GYM" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cafe_card"
+        android:layout_width="@dimen/_120sdp"
+        android:layout_height="@dimen/_80sdp"
+        android:layout_marginTop="8dp"
+        android:minWidth="200dp"
+        android:minHeight="80dp"
+        app:cardCornerRadius="3dp"
+        app:layout_constraintEnd_toEndOf="@+id/market_card"
+        app:layout_constraintTop_toBottomOf="@+id/market_card">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@drawable/cafe"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/familiarpro_bold"
+                android:gravity="center"
+                android:maxLength="40"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_20sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="Cafe" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/drive_card"
+        android:layout_width="@dimen/_120sdp"
+        android:layout_height="@dimen/_80sdp"
+        android:layout_marginTop="8dp"
+        android:minWidth="200dp"
+        android:minHeight="80dp"
+        app:cardCornerRadius="3dp"
+        app:layout_constraintStart_toStartOf="@+id/gym_card"
+        app:layout_constraintTop_toBottomOf="@+id/gym_card">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@drawable/drive"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/familiarpro_bold"
+                android:gravity="center"
+                android:maxLength="40"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_20sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="Drive" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/library_card"
+        android:layout_width="@dimen/_120sdp"
+        android:layout_height="@dimen/_80sdp"
+        android:layout_marginTop="8dp"
+        android:minWidth="200dp"
+        android:minHeight="80dp"
+        app:cardCornerRadius="3dp"
+        app:layout_constraintEnd_toEndOf="@+id/cafe_card"
+        app:layout_constraintTop_toBottomOf="@+id/cafe_card">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@drawable/library"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/familiarpro_bold"
+                android:gravity="center"
+                android:maxLength="40"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_20sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="Library" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/dateTitleTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:drawableLeft="@drawable/ic_baseline_date_range_24"
+        android:text="Today:"
+        android:drawablePadding="8dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="@+id/food_card"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/dateTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textStyle="bold"
+        android:layout_marginStart="@dimen/_8sdp"
+        app:layout_constraintBottom_toBottomOf="@+id/dateTitleTv"
+        app:layout_constraintStart_toEndOf="@+id/dateTitleTv"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

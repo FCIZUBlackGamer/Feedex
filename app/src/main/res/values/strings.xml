@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Feedex</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="forget_password">Forget Password?</string>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="read_it_together">Control it now!</string>
+    <string name="register">Sign up</string>
+    <string name="fName">Full Name</string>
+    <string name="lName">Last Name</string>
+    <string name="phone">Phone</string>
+    <string name="address">Address</string>
+    <string name="sign_up_now">Sign up</string>
+    <string name="you_haven_t_account">Haven\'t an account?</string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+    <string name="rePassword">Confirm Password</string>
+    <string name="wrong_password">Wrong Password!</string>
+    <string name="network_connection">Make Sure You are Connected to Internet</string>
+    <string name="english">English</string>
+    <string name="arabic">Arabic</string>
+    <string name="server_is_out_of_service">Check Your Connection!</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="budget">Budget</string>
+    <string name="language">Language</string>
+    <string name="chart">Chart</string>
+    <string name="logout">Logout</string>
+</resources>

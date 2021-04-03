@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="size_for_item_txt">@dimen/_16sdp</dimen>
+    <dimen name="size_for_header">@dimen/_14sdp</dimen>
+    <dimen name="size_for_title_of_clinic">@dimen/_18sdp</dimen>
+    <dimen name="size_for_title_arabic">@dimen/_18sdp</dimen>
+    <dimen name="size_for_timer">100sp</dimen>
+    <dimen name="size_for_header_in_portait_position">32.5sp</dimen>
+    <dimen name="size_for_item_in_portait_position">30sp</dimen>
+    <dimen name="start_and_end_padding_for_item">16dp</dimen>
+    <dimen name="size_for_txt_in_portrait">25sp</dimen>
+    <dimen name="popup_width">300dp</dimen>
+    <dimen name="popup_height">450dp</dimen>
+    <dimen name="margin_bottom_of_recycler">8dp</dimen>
+    <dimen name="padding_for_txt_bottom_and_top">12dp</dimen>
+    <dimen name="drawable_padding_in_call_list">8dp</dimen>
+    <dimen name="padding_top_and_bottom_for_appointment_item">1dp</dimen>
+    <dimen name="padding_start_and_end_for_call_item">24dp</dimen>
+    <dimen name="padding_for_main_screen">16dp</dimen>
+    <dimen name="width_for_doctor_img">124dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+</resources>
